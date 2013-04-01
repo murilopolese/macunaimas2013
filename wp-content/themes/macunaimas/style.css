@@ -1,0 +1,147 @@
+/*
+Theme Name: Macunaimãs
+Theme URI: 
+Author: Juliana Lisboa e Murilo Polese
+Author URI: 
+Description: 
+Version: 0.1
+License: All rights reserved
+License URI: 
+Tags: 
+Text Domain: 
+*/
+body {
+    font-family: 'Dosis', sans-serif !important;
+    font-size: 19px !important;
+    background: #ebe114;
+}
+a:link, a:visited, a:active {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
+}
+.up {
+    width: 100%;
+    background: #ebe114;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    padding: 50px 0 100px 0;
+}
+.splash {
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    width: 123px;
+    height: 123px;
+    background: url(img/splash-curtir.png);
+}
+.macunaimas {
+    position: relative;
+    height: 500px;
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slides {
+    width: 5760px;
+    height: 100%;
+}
+.slide {
+    float: left;
+    width: 960px;
+}
+.slide .char {
+    float: left;
+    margin: 50px 0 0 230px;
+}
+.slide .pieces {
+    float: left;
+    margin: 0 0 0 0;
+    width: 500px;
+    height: 500px;
+    display: -moz-box;
+    -moz-box-orient: horizontal;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    display: box;
+    box-orient: horizontal;
+    box-pack: center;
+    box-align: center;
+}
+.slide .pieces img, .slide .char img {
+    cursor: move;
+} 
+.arrow-left, .arrow-right {
+    cursor: pointer;
+    top: 50%;
+    margin-top: -70px;
+    z-index: 9999;
+}
+.arrow-left {
+    position: absolute;
+    left: 50px;
+}
+.arrow-right {
+    position: absolute;
+    right: 50px;
+}
+.instructions {
+    position: absolute;
+    bottom: 100px;
+    left: 20%;
+}
+
+
+.down {
+    width: 100%;
+    height: 300px;
+    background: #ee3d39;
+    padding: 100px 0 100px 0;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+.col {
+    float: left;
+    width: 300px;
+    margin: 0 10px;
+}
+.salve p:first-child {
+    margin-bottom: 10px;
+}
+.salve p {
+    line-height: 21px;
+}
+.loja {
+    text-align: center;
+}
+.form form input, .form form textarea {
+    width: 300px;
+    font-size: 19px;
+    font-family: 'Dosis', sans-serif;
+    border: 1px solid black;
+    background: #ee3d39;
+}
+
+.form form textarea {
+    height: 160px;
+    width: 296px;
+}
+
+.credits {
+    text-align: center;
+    height: 25px;
+    float: left;
+    margin-top: 80px;
+    font-size: 17px !important;
+    font-style: italic;
+}
